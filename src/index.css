@@ -1,17 +1,16 @@
 body {
   margin: 0;
   background: #e0e8ff ;
-  
 }
-
 code {
   font-family: sans-serif;
 }
-
 .img img{
   width: 100vh;
 }
-
+.mainimage {
+  border: cal(0.70rem-1px);
+}
 .card {
   display: flex;
   background-color: transparent !important;
@@ -20,7 +19,7 @@ code {
   position: absolute !important;
   align-items: center;
   border:none !important;
-
+  margin: 5rem auto;
 }
 .card-wrapper{
   width: 400px;
@@ -28,66 +27,54 @@ code {
   background-color: #fff;
   box-shadow: 5px 10px #0000;
 }
-
 .order {
   color: #414967;
 }
-
 .you {
-
   color: #a3a7c4;
 }
-
 .top {
-
   border-radius: 15px;
 }
-
 .change {
-
   color: #574bc1;
   font-weight: bold;
   padding: 10px;
   align-items: center;
   margin: 15px;
 }
-
 .plan {
-
   margin-left: 15px;
 }
-
 .year {
-
   color: #a3a7c4;
 }
-
 .annual {
-
   display: flex;
   align-content: center;
   justify-content: space-between;
   padding: 20px;
-
-
 }
-
 .annuall {
-
   font-weight: bold;
 }
-
 .cancel {
-
   color: #a3a7c4;
+}
+.change:hover {
+  color: #414967!important;
+
+}
+.proceed{
+  background: #382ae1 !important;
+}
+.proceed:hover {
+  background-color: #414967!important;
 }
 
 @media only screen and (max-width: 600px) {
-
   .card-wrapper{
     width: 320px;
     
   }
-
-
 }
